@@ -259,3 +259,6 @@ for i in range(0,len(oldnames)):
 savefile.seek(startpoints[-1] + len(oldnames[-1]))
 buf = savefile.read()
 newfile.write(buf)
+
+print "Crew renamed!  Press enter to continue..."
+raw_input()
