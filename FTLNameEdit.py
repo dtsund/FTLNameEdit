@@ -215,7 +215,6 @@ while True:
             continue
         print "Enter " + oldnames[responseNumber-1] + "'s new name (15 character limit, blank to abort):"
         newname = raw_input()
-        print len(newname)
         if len(newname) > 15:
             print "\nI did say 15 character limit; try counting next time."
             continue
